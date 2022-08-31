@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pictures</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-container"></div>
+        <div class="right-container">
+            <div class="image-container"></div>
+            <div class="filters-container">
+                <form id="filters">
+                    <div class="blur-filter">
+                        <input type="range" min="0" max="10" value="0" class="slider" id="myRange">
+                        <span class="slider-output">Blur: 0</span>
+                    </div>
+                    <div class="grayscale-filter">
+                        <input type="checkbox" id="grayscale" name="grayscale">
+                        <label for="grayscale">Check here if you want your image grayscale</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
